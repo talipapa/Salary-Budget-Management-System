@@ -9,6 +9,7 @@ namespace Presentation
         {
             services.AddControllers()
                     .AddApplicationPart(typeof(Presentation.Controller.CoreControllerBase).Assembly);
+            // Test Let ikt beeeee
             return services;
         }
     }
