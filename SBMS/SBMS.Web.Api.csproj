@@ -6,12 +6,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\SBMS.Core.Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\SBMS.Core.Infrastructure.csproj" />
-    <ProjectReference Include="..\Presentation\SBMS.Core.Presentation.csproj" />
+    <ProjectReference Include="..\SBMS.Core.Application\SBMS.Core.Application.csproj" />
+    <ProjectReference Include="..\SBMS.Core.Infrastructure\SBMS.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\SBMS.Core.Presentation\SBMS.Core.Presentation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Update="FluentValidation">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
     <PackageReference Update="Microsoft.EntityFrameworkCore">
       <TreatAsUsed>true</TreatAsUsed>
     </PackageReference>
