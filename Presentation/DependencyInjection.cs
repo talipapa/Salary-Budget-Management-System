@@ -9,6 +9,8 @@ namespace Presentation
         {
             services.AddControllers()
                     .AddApplicationPart(typeof(Presentation.Controller.CoreControllerBase).Assembly);
+
+
             return services;
         }
     }
