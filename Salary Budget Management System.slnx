@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="SBMS/SBMS.Web.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="Application/Core.Application.csproj" Id="578d1579-d8b2-4779-a001-b7f060490250" />
+    <Project Path="Domain/Core.Domain.csproj" Id="5992118b-5453-4172-aa84-bfb9a7cf73f7" />
+    <Project Path="Infrastructure/Core.Infrastructure.csproj" Id="bbe98334-2445-4237-af3e-eda566c7fbaa" />
+    <Project Path="Presentation/Core.Presentation.csproj" Id="9d57ebf8-f5e7-4058-b673-ec055d27afc9" />
+  </Folder>
+</Solution>
