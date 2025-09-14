@@ -6,9 +6,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\Core.Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\Core.Infrastructure.csproj" />
-    <ProjectReference Include="..\Presentation\Core.Presentation.csproj" />
+    <ProjectReference Include="..\Application\SBMS.Core.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\SBMS.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\Presentation\SBMS.Core.Presentation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
